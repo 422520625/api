@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "9ffc2a32c017a90d10120dc33b59d8dc",
     "packages": [
         {
             "name": "brick/math",
@@ -5137,6 +5137,53 @@
             "time": "2022-09-12T13:28:28+00:00"
         },
         {
+            "name": "trigold/gpt_chat",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/422520625/GPTChat_php.git",
+                "reference": "233c92aac960af263b75a99b81f50476cb1b753a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/422520625/GPTChat_php/zipball/233c92aac960af263b75a99b81f50476cb1b753a",
+                "reference": "233c92aac960af263b75a99b81f50476cb1b753a",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0.1",
+                "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpunit/phpunit": "^9.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Trigold\\GptChat\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "trigold",
+                    "email": "422520625@qq.com"
+                }
+            ],
+            "description": "gpt chat",
+            "support": {
+                "issues": "https://github.com/422520625/GPTChat_php/issues",
+                "source": "https://github.com/422520625/GPTChat_php/tree/main"
+            },
+            "time": "2022-12-09T07:31:08+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v5.5.0",
             "source": {
@@ -7802,7 +7849,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "trigold/gpt_chat": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
